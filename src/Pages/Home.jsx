@@ -1,5 +1,5 @@
 
-const Login = ()=>{
+const Home = ()=>{
     return(
         <div>
             <h1>Home</h1>
@@ -7,4 +7,4 @@ const Login = ()=>{
     )
 }
 
-export default Login
+export default Home

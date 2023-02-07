@@ -1,5 +1,5 @@
 
-const Login = ()=>{
+const Register = ()=>{
     return(
         <div>
             <h1>Register</h1>
@@ -7,4 +7,4 @@ const Login = ()=>{
     )
 }
 
-export default Login
+export default Register
