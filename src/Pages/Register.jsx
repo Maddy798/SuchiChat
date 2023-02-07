@@ -78,7 +78,7 @@ const Register = () => {
       />
       <input
         type="file"
-        accept="images/*"
+        accept="image/*"
         onChange={(e) => setprofilePic(e.target.files[0])}
       />
       <button type="submit">Register</button>

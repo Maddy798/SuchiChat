@@ -21,7 +21,7 @@ const Navbar = () => {
         
         {user ? (
             <div>
-                <img src={user?.photoURL} alt="" />
+                <img src={user?.photoURL}  alt="" />
             <button onClick={LogUserOut}>Log Out</button>
             </div>
         ) : (
