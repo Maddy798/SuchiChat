@@ -41,8 +41,8 @@ const Login = ()=>{
             <Toaster/>
             <form onSubmit={SignInWithEmailAndPassword}>
 
-                <input type="email" placeholder="Email..." value={email} onChange={(e)=> setEmail(e.target.value)}/>
-                <input type="password" placeholder="Password..."value={password} onChange={(e)=> setPassword(e.target.value)}/>
+                <input required type="email" placeholder="Email..." value={email} onChange={(e)=> setEmail(e.target.value)}/>
+                <input required type="password" placeholder="Password..."value={password} onChange={(e)=> setPassword(e.target.value)}/>
                 <button type="submit">Log In</button>
 
             </form>
@@ -52,3 +52,6 @@ const Login = ()=>{
 }
 
 export default Login
+
+
+
