@@ -4,9 +4,12 @@ import Home from "./Pages/Home.jsx";
 import Login from "./Pages/Login.jsx";
 import Register from "./Pages/Register.jsx";
 import ChatPage from "./Pages/ChatPage.jsx";
+import Navbar from "./Components/Navbar.jsx";
 const App = () => {
   return (
     <Router>
+      
+      <Navbar/>
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
